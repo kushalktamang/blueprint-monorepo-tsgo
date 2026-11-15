@@ -1,0 +1,19 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Blueprint API",
+    "version": "1.0.0",
+    "description": "Blueprint server system endpoints."
+  },
+  "paths": {
+    "/status": {
+      "get": {
+        "summary": "Check service health",
+        "responses": {
+          "200": { "description": "All configured dependencies are healthy." },
+          "503": { "description": "One or more configured dependencies are unhealthy." }
+        }
+      }
+    }
+  }
+}
