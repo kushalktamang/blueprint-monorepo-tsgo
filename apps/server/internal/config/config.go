@@ -173,8 +173,8 @@ func MustLoad() (*Config, error) {
 	logger := slog.New(slog.NewJSONHandler(
 		os.Stderr,
 		&slog.HandlerOptions{
-			// AddSource: true,
-			Level: slog.LevelInfo,
+			AddSource: true,
+			Level:     slog.LevelInfo,
 		}))
 
 	// koanf instance
