@@ -7,14 +7,20 @@ catalogMode: prefer
 
 catalog:
   "@asteasolutions/zod-to-openapi": ^9.1.0
+  '@react-email/ui': 6.11.16
   "@tailwindcss/vite": ^4.3.5
   "@ts-rest/core": ^3.52.1
   "@ts-rest/open-api": ^3.52.1
   "@types/node": ^24
+  '@types/react': ^19.3.0
+  '@types/react-dom': ^19.3.0
   concurrently: ^10.0.7
   oxfmt: 0.73.0
   oxlint: 1.88.0
   oxlint-tsgolint: 7.0.2004
+  react: ^19.3.1
+  react-dom: ^19.3.1
+  react-email: ^6.11.16
   tailwindcss: ^4.3.5
   ts-pattern: ^5.9.2
   tsx: ^4.23.15
